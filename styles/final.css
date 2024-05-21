@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(196, 227, 247);
+    background-image: linear-gradient(90deg, rgb(126, 200, 126) 0%, white 50%, rgb(248, 132, 132) 100%);
+}
+Body{
+    font-family: georgia, serif;
+    font-size: 100%;
+    width: 90%;
+    max-width: 1024px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 30px 0;
+    border: 3px solid green;
+    height: auto !important;
+}
+header h1{
+padding-top: 70px;
+font-size: 300%;
+}
+header h3{
+    font-size: 150%;
+}
+header img{
+    padding-right: 5.5555555555555555555556%;
+    padding-left: 3.333333333333333333333333%;
+    float: left;
+    height:200px;
+}
+header{
+    padding-bottom: 65px;
+    border-bottom: 3px solid green;
+}
+#nav_menu ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+    width: 100%;
+}
+#nav_menu ul li {
+	float: left;
+    width:33.3333333333333%;
+}
+#nav_menu ul li a {
+	display:block;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: green;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+#nav_menu ul li a.current {
+	color:rgb(248, 132, 132);
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color:rgb(126, 200, 126);
+}
+main{
+    clear: left;
+    padding-top: 20px;
+    padding-left: 3.333333333333333333333%;
+    padding-right: 3.333333333333333333333%;
+}
+#mission_img{
+    border: 3px solid green;
+    float: right;
+    margin-left: 1.6666666666666666666667%;
+    margin-top: 15px;
+    height:350px;
+}
+#mission_h{
+    margin-top: 25px;
+}
+main h2{
+    font-size: 200%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main p{
+    font-size: 100%;
+    padding-left: 1.111111111111111111111111111%;
+    padding-top: 15px;
+}
+main p.indent{
+    text-indent: 2.222222222222222222222%;
+}
+section{
+    clear: right;
+    width: 88.888888888888888888889%;
+}
+section img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15px;
+    display: block;
+    border: 3px solid green;
+}
+aside{
+    width: 88.888888888888888888888888889%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+aside img{
+    float: left;
+    width: 20%;
+    border: 3px solid green;
+    margin-right: 1.6666666666666666666667%;
+    margin-top: 10px;
+    margin-left: 3.333333333333333333333%;
+    margin-bottom: 30px;
+}
+aside p{
+    margin-top: 15px;
+}
+footer{
+    margin-top: 30px;
+    clear: left;
+    padding: 15px 3.3333333333333333333%;
+    background-color: rgb(85, 148, 85);
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+#mobile_menu {display: none;}
+@media only screen and (max-width: 900px){
+    header h1{
+        font-size: 250%;
+    }
+    body{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 767px){
+   #nav_menu {display:none;}
+   #mobile_menu {display:block;}
+   .slicknav_menu {
+    background-color: green !important;
+    margin-top: 40px;
+}
+
+#mobile_menu ul li a {
+    background-color: green !important;
+}
+#mobile_menu ul li a{
+    text-align: right;
+    display: block;
+}
+header{
+    border: none;
+    padding-bottom: 15px;
+}
+header img{
+    height: 150px;
+}
+header h1{
+    font-size: 200%;
+    padding-top: 50px;
+}
+#first {
+    font-size: 150%;
+}
+main{
+    padding-top: 10px;
+}
+main h2, aside h2, section h2{
+    font-size: 150%;
+}
+p{
+    font-size: 90%;
+}
+#mission_h{
+    margin-top: 5px;
+}
+body{
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+#mission_img{
+   border: none;
+   width:33%;
+   height: auto;
+}
+main h2{
+    padding-bottom: 0;
+}
+main p{
+    padding-top: 5px;
+}
+section{
+    width: 95%;
+}
+section img{
+    border:none;
+    width: 45%;
+    height: auto;
+}
+aside{
+    width: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+aside img{
+    border:none;
+    margin-bottom: 5px;
+    width:20%
+}
+footer{
+    margin-top: 15px;
+}
+footer p{
+    font-size: 70%;
+}
+}
+
+@media only screen and (max-width: 479px){
+    header img{
+        height:100px
+    }
+    header h1{
+        font-size: 150%;
+        padding-top: 30px;
+    }
+    #first{
+        font-size: 100%;
+    }
+    header{
+        padding-bottom: 0;
+    }
+    main h2{
+        font-size: 100%;
+    }
+    main p{
+        font-size: 80%;
+    }
+    section h2{
+        font-size: 100%;
+    }
+    aside h2{
+        font-size: 100%;
+    }
+    footer p{
+        font-size: 50%;
+    }
+
+}
